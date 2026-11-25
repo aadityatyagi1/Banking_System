@@ -1,0 +1,16 @@
+$kind: http-request
+name: http://localhost:3000/api/auth/registration
+description: ""
+url: http://localhost:3000/api/auth/registration
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: json
+  content: |-
+    {
+        "email": "harshityagi0011@gmail.com",
+        "name": "harshit",
+        "password": "87654321"
+    }
+order: 1000
